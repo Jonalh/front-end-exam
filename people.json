@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Marius",
+    "age": 49,
+    "city": "Oppegård",
+    "category": "family"
+  },
+  {
+    "name": "Solrunn",
+    "age": 48,
+    "city": "Vestby",
+    "category": "family"
+  },
+  {
+    "name": "Guro",
+    "age": 18,
+    "city": "Oppegård",
+    "category": "family"
+  },
+  {
+    "name": "Jorunn",
+    "age": 76,
+    "city": "Oppegård",
+    "category": "family"
+  },
+  {
+    "name": "Eli",
+    "age": 70,
+    "city": "Stord",
+    "category": "family"
+  },
+  {
+    "name": "Arne",
+    "age": 73,
+    "city": "Stord",
+    "category": "family"
+  },
+  {
+    "name": "Erling",
+    "age": 21,
+    "city": "Oppegård",
+    "category": "family"
+  },
+  {
+    "name": "Marie",
+    "age": 19,
+    "city": "Oppegård",
+    "category": "family"
+  },
+  {
+    "name": "Vibeke",
+    "age": 52,
+    "city": "Oppegård",
+    "category": "family"
+  },
+  {
+    "name": "Bjørn Tore",
+    "age": 55,
+    "city": "Oppegård",
+    "category": "family"
+  },
+  {
+    "name": "Odd Arne",
+    "age": 44,
+    "city": "Stavanger",
+    "category": "family"
+  },
+  {
+    "name": "Gunvor",
+    "age": 40,
+    "city": "Stavanger",
+    "category": "family"
+  },
+  {
+    "name": "Karl Magnus",
+    "age": 21,
+    "city": "Oppegård",
+    "category": "friend"
+  },
+  {
+    "name": "Herman",
+    "age": 21,
+    "city": "Oppegård",
+    "category": "friend"
+  },
+  {
+    "name": "Eivind",
+    "age": 21,
+    "city": "Oslo",
+    "category": "friend"
+  },
+  {
+    "name": "Jarle",
+    "age": 23,
+    "city": "Stavanger",
+    "category": "friend"
+  },
+  {
+    "name": "Martin",
+    "age": 22,
+    "city": "Bergen",
+    "category": "friend"
+  },
+  {
+    "name": "Magnus",
+    "age": 21,
+    "city": "Gjøvik",
+    "category": "friend"
+  },
+  {
+    "name": "Richard",
+    "age": 25,
+    "city": "Gjøvik",
+    "category": "friend"
+  },
+  {
+    "name": "Hedda",
+    "age": 22,
+    "city": "Gjøvik",
+    "category": "friend"
+  }
+]

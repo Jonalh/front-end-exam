@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front-end Exam</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="quiz.html">QUIZ</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="quiz">
+        <form action="quiz.html" id="quizForm">
+          <h3>What is the capital of Norway?</h3>
+          <ul>
+            <li><input type="radio" name="q1" value="1a" id="1a" /> Oslo</li>
+            <li><input type="radio" name="q1" value="1b" /> Stavanger</li>
+            <li><input type="radio" name="q1" value="1c" /> Bergen</li>
+          </ul>
+          <h3>What is the tallest mountain in Norway?</h3>
+          <ul>
+            <li><input type="radio" name="q2" value="2a" /> Glittertind</li>
+            <li><input type="radio" name="q2" value="2b" /> Istind</li>
+            <li><input type="radio" name="q2" value="2c" /> Galdhøpiggen</li>
+          </ul>
+          <h3>Who made Tesla?</h3>
+          <ul>
+            <li><input type="radio" name="q3" value="3a" /> Justin Bieber</li>
+            <li><input type="radio" name="q3" value="3b" /> Elon Musk</li>
+            <li><input type="radio" name="q3" value="3c" /> Winnie the Pooh</li>
+          </ul>
+          <h3>Which planet is the largest in our solar system?</h3>
+          <ul>
+            <li><input type="radio" name="q4" value="4a" /> Pluto</li>
+            <li><input type="radio" name="q4" value="4b" /> Mars</li>
+            <li><input type="radio" name="q4" value="4c" /> Jupiter</li>
+          </ul>
+          <h3>What does CSS stand for?</h3>
+          <ul>
+            <li>
+              <input type="radio" name="q5" value="5a" /> Cascading Style Sheets
+            </li>
+            <li>
+              <input type="radio" name="q5" value="5b" /> Cascading Setup Style
+            </li>
+            <li>
+              <input type="radio" name="q5" value="5c" /> Cool Styling Stuff
+            </li>
+          </ul>
+        </form>
+        <button id="submit" onclick="quizCheck()">Submit</button>
+      </div>
+    </main>
+    <script src="quiz.js"></script>
+  </body>
+</html>
