@@ -28,24 +28,29 @@
           <ul>
             <li><input type="radio" name="q2" value="2a" /> Glittertind</li>
             <li><input type="radio" name="q2" value="2b" /> Istind</li>
-            <li><input type="radio" name="q2" value="2c" /> Galdhøpiggen</li>
+            <li>
+              <input type="radio" name="q2" value="2c" id="2a" /> Galdhøpiggen
+            </li>
           </ul>
           <h3>Who made Tesla?</h3>
           <ul>
             <li><input type="radio" name="q3" value="3a" /> Justin Bieber</li>
-            <li><input type="radio" name="q3" value="3b" /> Elon Musk</li>
+            <li>
+              <input type="radio" name="q3" value="3b" id="3a" /> Elon Musk
+            </li>
             <li><input type="radio" name="q3" value="3c" /> Winnie the Pooh</li>
           </ul>
           <h3>Which planet is the largest in our solar system?</h3>
           <ul>
             <li><input type="radio" name="q4" value="4a" /> Pluto</li>
             <li><input type="radio" name="q4" value="4b" /> Mars</li>
-            <li><input type="radio" name="q4" value="4c" /> Jupiter</li>
+            <li><input type="radio" name="q4" value="4c" id="4a" /> Jupiter</li>
           </ul>
           <h3>What does CSS stand for?</h3>
           <ul>
             <li>
-              <input type="radio" name="q5" value="5a" /> Cascading Style Sheets
+              <input type="radio" name="q5" value="5a" id="5a" /> Cascading
+              Style Sheets
             </li>
             <li>
               <input type="radio" name="q5" value="5b" /> Cascading Setup Style
@@ -57,6 +62,15 @@
         </form>
         <button id="submit" onclick="quizCheck()">Submit</button>
       </div>
+      <p id="result"></p>
+      <ul style="display: none" id="correctAnswers">
+        <h3>Correct Answers</h3>
+        <li>Oslo</li>
+        <li>Galdhøpiggen</li>
+        <li>Elon Musk</li>
+        <li>Jupiter</li>
+        <li>Cascading Style Sheets</li>
+      </ul>
     </main>
     <script src="quiz.js"></script>
   </body>

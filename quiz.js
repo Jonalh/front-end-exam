@@ -26,6 +26,9 @@ function quizCheck() {
     score = score + 1;
   }
 
-  console.log(score);
+  document.getElementById("result").innerHTML =
+    "Your score is " + score + " out of 5";
+  document.getElementById("correctAnswers").style.display = "block";
   document.getElementById("quizForm").reset();
+  score = 0;
 }
